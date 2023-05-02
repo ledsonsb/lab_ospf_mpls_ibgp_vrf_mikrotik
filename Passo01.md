@@ -40,13 +40,12 @@ Roteador P4:
 
 #### Comandos para adicionar IPs nas interfaces
 ~~~cpp
-   system identity set name=P1
+system identity set name=P1
 
 interface bridge add name=loopback
+
 ip address add address=172.16.0.1/32 interface=loopback
-
 ip address add address=10.0.0.1/30 interface=ether1
-
 ip address add address=10.0.0.5/30 interface=ether2
 ~~~
 
