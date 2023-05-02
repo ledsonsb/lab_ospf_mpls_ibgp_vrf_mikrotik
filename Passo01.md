@@ -1,9 +1,12 @@
 ## 1 - Criar a rede de backbone e subir o OSPF
 
-### ---
+### Roteiro
 * Adicionar 4 roteadores P1, PE2, PE3 e P4
 * Adicionar os IPs das interfaces e as loopbacks
 * Testar ping nos ips das interfaces
+* Subir o protocolo de roteamento OSPF
+* Criar a instância OSPF 
+* Anunciar as redes para o OSPF
 
 #### IPs das interfaces e as loopbacks
 
@@ -35,7 +38,4 @@ Roteador P4:
 | eth1  | 10.0.0.13/30 |
 | eth2  | 10.0.0.10/30  |
 
-01.2 - Subir o protocolo de roteamento OSPF
 
-Criar a instância OSPF 
-Anunciar as redes para o OSPF
