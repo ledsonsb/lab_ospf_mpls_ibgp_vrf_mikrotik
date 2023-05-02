@@ -54,5 +54,19 @@ teste o ping nos ips da interfaces
 *eth1: 10.0.0.13/30
 *eth2: 10.0.0.10/30
 
+Comandos utilizados
+```
+system identity set name=P1
+
+interface bridge add name=loopback
+ip address add address=172.16.0.1/32 interface=loopback
+
+ip address add address=10.0.0.1/30 interface=ether1
+
+ip address add address=10.0.0.5/30 interface=ether2
+
+ip address print (Mostra os ips das interfaces)
+```
+
 
 
