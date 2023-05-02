@@ -60,7 +60,7 @@ Verifica os vizinhos OSPF
 ~~~cpp
 routing ospf neighbor print
 ~~~
-VTabela de rotas do roteado
+Verificar a tabela de rotas do roteador
 ~~~cpp
 ip route print
 ~~~
