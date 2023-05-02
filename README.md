@@ -19,6 +19,7 @@ Em conjunto, essas tecnologias podem melhorar o desempenho, escalabilidade e seg
 ### Passo 01 - Atribuição de IPs na interface e Backbone OSPF
 
 ![Backbone OSPF](https://github.com/ledsonsb/lab_ospf_mpls_ibgp_vrf_mikrotik/blob/main/_imagens/passo01.PNG)
+> Rede completa
 
 * CE – Customer Edge (Roteador do cliente)
 * LER/PE – Label Edge Router – Provider Edge (Roteadores de borda) Roteadores onde ligamos clientes
