@@ -1,6 +1,6 @@
-## 1 - Criar a rede de backbone
+## 1 - Criar a rede de backbone e subir o OSPF
 
-### 1 - Roteiro
+### ---
 * Adicionar 4 roteadores P1, PE2, PE3 e P4
 * Adicionar os IPs das interfaces e as loopbacks
 * Testar ping nos ips das interfaces
