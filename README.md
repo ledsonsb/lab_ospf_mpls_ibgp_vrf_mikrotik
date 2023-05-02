@@ -18,7 +18,7 @@ O OSPF é um protocolo de roteamento dinâmico usado para encontrar o melhor cam
 
 ### Passo 01 - Atribuição de IPs na interface e Backbone OSPF
 
-![Backbone OSPF](https://github.com/ledsonsb/lab_ospf_mpls_ibgp_vrf_mikrotik/blob/main/_imagens/lab_completo.PNG)
+![Backbone OSPF](https://github.com/ledsonsb/lab_ospf_mpls_ibgp_vrf_mikrotik/blob/main/_imagens/passo01.PNG)
 
 CE – Customer Edge (Roteador do cliente)
 LER/PE – Label Edge Router – Provider Edge (Roteadores de borda) Roteadores onde ligamos clientes
