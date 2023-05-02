@@ -38,7 +38,7 @@ Roteador P4:
 | eth1  | 10.0.0.13/30 |
 | eth2  | 10.0.0.10/30  |
 
-#### Comandos para adicionar IPs nas interfaces
+Comandos para adicionar IPs nas interfaces
 ~~~cpp
 system identity set name=P1
 
@@ -48,5 +48,28 @@ ip address add address=172.16.0.1/32 interface=loopback
 ip address add address=10.0.0.1/30 interface=ether1
 ip address add address=10.0.0.5/30 interface=ether2
 ~~~
+Subir o protocolo OSPF
+~~~cpp
+routing ospf instance set 0 router-id=172.16.0.1
+
+routing ospf network add network=172.16.0.1 area=backbone
+routing ospf network add network=10.0.0.0/30 area=backbone
+routing ospf network add network=10.0.0.4/30 area=backbone
+~~~
+Verifica os vizinhos OSPF
+~~~cpp
+routing ospf neighbor print
+~~~
+VTabela de rotas do roteado
+~~~cpp
+ip route print
+~~~
+
+
+
+
+
+
+
 
 
