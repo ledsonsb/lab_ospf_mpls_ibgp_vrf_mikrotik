@@ -7,7 +7,7 @@
 
 #### IPs das interfaces e as loopbacks
 
-P1
+| P1 |
 | Interface | IP/MASK |
 | ------------- | ------------- |
 | loopback  |  172.16.0.1/32  |
