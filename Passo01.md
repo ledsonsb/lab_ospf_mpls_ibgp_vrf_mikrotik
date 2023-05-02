@@ -1,6 +1,6 @@
 ## 1 - Criar a rede de backbone e subir o OSPF
 
-![Laborátorio completo](https://github.com/ledsonsb/lab_ospf_mpls_ibgp_vrf_mikrotik/blob/main/_imagens/lab_completo.PNG)
+![Laborátorio completo](https://github.com/ledsonsb/lab_ospf_mpls_ibgp_vrf_mikrotik/blob/main/_imagens/passo01.PNG)
 
 ### Roteiro
 * Adicionar 4 roteadores P1, PE2, PE3 e P4
