@@ -36,8 +36,8 @@ Roteador PE3:
 
 ### Tabela em HTML
 
-<table class="demo">
-	<caption>tabela 1</caption>
+<table class="table">
+	<caption>PE2</caption>
 	<thead>
 	<tr>
 		<th>Interface</th>
@@ -52,6 +52,10 @@ Roteador PE3:
 	<tr>
 		<td>eth01<br>vlan10</td>
 		<td>192.168.0.1/24<br>100.64.1.1</td>
+	</tr>
+	<tr>
+		<td>eth01<br><strong>vlan10</strong></td>
+		<td>192.168.0.1/24<br><strong>100.64.1.1</strong></td>
 	</tr>
 	</tbody>
 </table>
