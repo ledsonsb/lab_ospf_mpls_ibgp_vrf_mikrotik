@@ -35,19 +35,58 @@ Roteador PE3:
 
 ### Tabela em HTML
 
-<table>
-<thead>
-<tr>
-<th>foo</th>
-<th>bar</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>baz</td>
-<td>bim</td>
-</tr>
-</tbody>
+<style>
+	.demo {
+		border:1px sólido #C0C0C0;
+		border-collapse:colapso;
+		padding:5px;
+	}
+	.demo th {
+		border:1px sólido #C0C0C0;
+		padding:5px;
+		background:#F0F0F0;
+	}
+	.demo td {
+		border:1px sólido #C0C0C0;
+		padding:5px;
+	}
+</style>
+<table class="demo">
+	<caption>tabela 1</caption>
+	<thead>
+	<tr>
+		<th>Cabeçalho 1</th>
+		<th>Cabeçalho 2</th>
+		<th>Cabeçalho 3</th>
+		<th>Cabeçalho 4</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+	</tbody>
 </table>
 
 Comandos para adicionar IPs nas interfaces
