@@ -46,12 +46,12 @@ Roteador PE3:
 	</thead>
 	<tbody>
 	<tr>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
+		<td>loopback</td>
+		<td>172.16.0.1</td>
 	</tr>
 	<tr>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
+		<td>eth01<br>vlan10</td>
+		<td>192.168.0.1/24<br>100.64.1.1</td>
 	</tr>
 	</tbody>
 </table>
