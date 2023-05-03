@@ -51,6 +51,39 @@ interface bridge port add interface=all bridge=bridge1
 	</tbody>
 </table>
 
+
+<table class="table">
+	<caption>PE3</caption>
+	<thead>
+	<tr>
+		<th>Interface</th>
+		<th>Address/Mask</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>loopback</td>
+		<td>172.16.0.3/32</td>
+	</tr>
+	<tr>
+		<td>eth01<br>
+		<td>10.0.0.6/30<br>
+	</tr>
+	<tr>
+		<td>eth02</td>
+		<td>10.0.0.9/30</td>
+	</tr>
+		<tr>
+		<th>
+			eth03<br><strong>vlan10</strong><br><strong>vlan20</strong>
+		</th>
+		<th>
+			-<br>100.64.4.1/30<br>100.64.3.1/30
+		</th>
+	</tr>
+	</tbody>
+</table>
+
 Comandos para adicionar IPs nas interfaces
 ~~~cpp
 system identity set name=P1
