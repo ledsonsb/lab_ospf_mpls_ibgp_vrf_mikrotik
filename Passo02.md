@@ -20,9 +20,9 @@ interface bridge port add interface=all bridge=bridge1
 Roteador PE2: 
 | INTERFACE | IP/MASK |
 | ------------- | ------------- |
-| loopback  |  172.16.0.2/32  |
-|<sup>eth1</sup> | <sup>10.0.0.2/30</sup> |
-| eth2  | 10.0.0.14/30  |
+| * *loopback* *  |  * *172.16.0.2/32* *  |
+| * *eth1* * | * *<sup>10.0.0.2/30</sup>* * |
+| * *eth2* *  | * *10.0.0.14/30* *  |
 | **vlan10**  | **10.0.0.14/30**  |
 | **vlan20**  | **10.0.0.14/30**  |
 
