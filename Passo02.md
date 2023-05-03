@@ -1,12 +1,7 @@
 ## 2 - VLAN Router + MPLS
 
-<style
-  type="text/css">
-h1 {color:red;}
-
-p {color:blue;}
-</style>
-okay
+<style>p{color:red;}</style>
+*foo*
 
 ![Laborátorio completo](https://github.com/ledsonsb/lab_ospf_mpls_ibgp_vrf_mikrotik/blob/main/_imagens/passo02.PNG)
 
