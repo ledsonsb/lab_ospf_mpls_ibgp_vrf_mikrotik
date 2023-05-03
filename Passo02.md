@@ -1,8 +1,5 @@
 ## 2 - VLAN Router + MPLS
 
-<style>p{color:red;}</style>
-*foo*
-
 ![Laborátorio completo](https://github.com/ledsonsb/lab_ospf_mpls_ibgp_vrf_mikrotik/blob/main/_imagens/passo02.PNG)
 
 ### Roteiro
@@ -44,21 +41,21 @@ Roteador PE3:
 	<thead>
 	<tr>
 		<th>Interface</th>
-		<th>Addres</th>
+		<th>Address/Mask</th>
 	</tr>
 	</thead>
 	<tbody>
 	<tr>
 		<td>loopback</td>
-		<td>172.16.0.1</td>
-	</tr>
-	<tr>
-		<td>eth01<br>vlan10</td>
-		<td>192.168.0.1/24<br>100.64.1.1</td>
+		<td>172.16.0.1/32</td>
 	</tr>
 	<tr>
 		<td>eth01<br><strong>vlan10</strong></td>
-		<td>192.168.0.1/24<br><strong>100.64.1.1</strong></td>
+		<td>10.0.0.14/30<br><strong>100.64.1.1</strong></td>
+	</tr>
+	<tr>
+		<td>eth02</td>
+		<td>10.0.0.14/30</td>
 	</tr>
 	</tbody>
 </table>
