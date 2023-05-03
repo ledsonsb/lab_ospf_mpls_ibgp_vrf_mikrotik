@@ -45,7 +45,7 @@ interface bridge port add interface=all bridge=bridge1
 			eth03<br><strong>vlan10</strong><br><strong>vlan20</strong>
 		</th>
 		<th>
-			-<br>vlan10: 100.64.1.1/30<br>vlan20: 100.64.2.1/30
+			-<br>100.64.1.1/30<br>100.64.2.1/30
 		</th>
 	</tr>
 	</tbody>
