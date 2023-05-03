@@ -30,11 +30,11 @@ interface bridge port add interface=all bridge=bridge1
 	<tbody>
 	<tr>
 		<td>loopback</td>
-		<td>172.16.0.1/32</td>
+		<td>172.16.0.2/32</td>
 	</tr>
 	<tr>
-		<td>eth01<br><strong>vlan10</strong></td>
-		<td>10.0.0.14/30<br><strong>100.64.1.1</strong></td>
+		<td>eth01<br>
+		<td>10.0.0.2/30<br>
 	</tr>
 	<tr>
 		<td>eth02</td>
@@ -42,10 +42,10 @@ interface bridge port add interface=all bridge=bridge1
 	</tr>
 		<tr>
 		<th>
-			eth03<br><strong>vlan</strong>
+			eth03<br><strong>vlan10</strong><br><strong>vlan20</strong>
 		</th>
 		<th>
-			vlan:100.64.0.1/30
+			vlan10: 100.64.1.1/30<br>vlan20: 100.64.2.1/30
 		</th>
 	</tr>
 	</tbody>
