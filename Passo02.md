@@ -84,45 +84,32 @@ interface bridge port add interface=all bridge=bridge1
 	</tbody>
 </table>
 
-| CE01 - Vermelho |
-
+CE01 - Vermelho
 | INTERFACE | IP/MASK |
 | ------------- | ------------- |
 | eth1-vlan10  | 10.0.0.2/30 |
 
-| CE02 - Vermelho |
-
+CE02 - Vermelho 
 | INTERFACE | IP/MASK |
 | ------------- | ------------- |
 | eth1-vlan10  | 10.0.0.2/30 |
 
-Comandos para adicionar IPs nas interfaces
-~~~cpp
-system identity set name=P1
+CE01 - Azul
+| INTERFACE | IP/MASK |
+| ------------- | ------------- |
+| eth1-vlan10  | 10.0.0.2/30 |
 
-interface bridge add name=loopback
+CE02 - Azul 
+| INTERFACE | IP/MASK |
+| ------------- | ------------- |
+| eth1-vlan10  | 10.0.0.2/30 |
 
-ip address add address=172.16.0.1/32 interface=loopback
-ip address add address=10.0.0.1/30 interface=ether1
-ip address add address=10.0.0.5/30 interface=ether2
-~~~
-Subir o protocolo OSPF
+Comandos para adicionar Vlans nas interfaces do mikrotik
 ~~~cpp
-routing ospf instance set 0 router-id=172.16.0.1
+interface vlan add vlan-id=10 name=vlanazul interface=ether3
 
-routing ospf network add network=172.16.0.1 area=backbone
-routing ospf network add network=10.0.0.0/30 area=backbone
-routing ospf network add network=10.0.0.4/30 area=backbone
-~~~
-Verifica os vizinhos OSPF
-~~~cpp
-routing ospf neighbor print
+ip address add address=100.64.3.1/30 interface=vlanverm
 ~~~
 
-
-(Comando para ser usado nos switchs)
-
-tool romon set enabled=yes
-(Apenas facilitar o acesso usando winbox nos labs)
 
 
