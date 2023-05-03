@@ -1,5 +1,13 @@
 ## 2 - VLAN Router + MPLS
 
+<style
+  type="text/css">
+h1 {color:red;}
+
+p {color:blue;}
+</style>
+okay
+
 ![Laborátorio completo](https://github.com/ledsonsb/lab_ospf_mpls_ibgp_vrf_mikrotik/blob/main/_imagens/passo02.PNG)
 
 ### Roteiro
@@ -60,7 +68,7 @@ Roteador PE3:
 	</tbody>
 </table>
 
-<font color="purple">Comandos para adicionar IPs nas interfaces</font>
+Comandos para adicionar IPs nas interfaces
 ~~~cpp
 system identity set name=P1
 
