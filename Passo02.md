@@ -84,6 +84,10 @@ interface bridge port add interface=all bridge=bridge1
 	</tbody>
 </table>
 
+Roteador CE01 Vermelho: 
+| INTERFACE | IP/MASK |
+| ------------- | ------------- |
+| eth1 / vlan10  | 10.0.0.2/30 |
 
 
 Comandos para adicionar IPs nas interfaces
