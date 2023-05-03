@@ -17,23 +17,6 @@ interface bridge port add interface=all bridge=bridge1
 
 #### Adicione as seguintes VLANs nos PEs 
 
-Roteador PE2: 
-| INTERFACE | IP/MASK |
-| ------------- | ------------- |
-| loopback   |  172.16.0.2/32  |
-  vlan            16582  
-| eth1 | 10.0.0.2/30 |
-| eth2  | 10.0.0.14/30  |
-| **vlan10**  | **10.0.0.14/30**  |
-| **vlan20**  | **10.0.0.14/30**  |
-
-Roteador PE3: 
-| INTERFACE | IP/MASK |
-| ------------- | ------------- |
-| loopback **vlan10**  |  172.16.0.3/32 100.64.0.10/30  |
-| eth1| 10.0.0.6/30 |
-| eth2  | 10.0.0.9/30  |
-
 ### Tabela em HTML
 
 <table class="table">
@@ -56,6 +39,14 @@ Roteador PE3:
 	<tr>
 		<td>eth02</td>
 		<td>10.0.0.14/30</td>
+	</tr>
+		<tr>
+		<th>
+			eth03<br><strong>vlan</strong>
+		</th>
+		<th>
+			vlan:100.64.0.1/30
+		</th>
 	</tr>
 	</tbody>
 </table>
