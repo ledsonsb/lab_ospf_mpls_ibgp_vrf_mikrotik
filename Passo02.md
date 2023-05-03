@@ -20,17 +20,17 @@ interface bridge port add interface=all bridge=bridge1
 Roteador PE2: 
 | INTERFACE | IP/MASK |
 | ------------- | ------------- |
-| * *loopback* *  |  * *172.16.0.2/32* *  |
-| * *eth1* * | * *<sup>10.0.0.2/30</sup>* * |
-| * *eth2* *  | * *10.0.0.14/30* *  |
+| loopback   |  172.16.0.2/32  |
+| eth1 | 10.0.0.2/30 |
+| eth2  | 10.0.0.14/30  |
 | **vlan10**  | **10.0.0.14/30**  |
 | **vlan20**  | **10.0.0.14/30**  |
 
 Roteador PE3: 
 | INTERFACE | IP/MASK |
 | ------------- | ------------- |
-| loopback  |  172.16.0.3/32  |
-| eth1  | 10.0.0.6/30 |
+| loopback **vlan10**  |  172.16.0.3/32 100.64.0.10/30  |
+| eth1| 10.0.0.6/30 |
 | eth2  | 10.0.0.9/30  |
 
 Comandos para adicionar IPs nas interfaces
