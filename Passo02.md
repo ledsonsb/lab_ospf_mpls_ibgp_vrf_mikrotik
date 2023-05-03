@@ -33,6 +33,23 @@ Roteador PE3:
 | eth1| 10.0.0.6/30 |
 | eth2  | 10.0.0.9/30  |
 
+### Tabela em HTML
+
+<table>
+<thead>
+<tr>
+<th>foo</th>
+<th>bar</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>baz</td>
+<td>bim</td>
+</tr>
+</tbody>
+</table>
+
 Comandos para adicionar IPs nas interfaces
 ~~~cpp
 system identity set name=P1
