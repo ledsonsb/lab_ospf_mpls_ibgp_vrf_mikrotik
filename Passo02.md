@@ -86,7 +86,7 @@ interface bridge port add interface=all bridge=bridge1
 
 
 <table class="table">
-	<caption>PE2</caption>
+	<caption>CE's 01 e 02 Vermelho</caption>
 	<thead>
 	<tr>
 		<th>Interface</th>
