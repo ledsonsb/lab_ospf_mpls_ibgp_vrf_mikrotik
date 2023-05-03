@@ -60,7 +60,7 @@ Roteador PE3:
 	</tbody>
 </table>
 
-Comandos para adicionar IPs nas interfaces
+<font color="purple">Comandos para adicionar IPs nas interfaces</font>
 ~~~cpp
 system identity set name=P1
 
