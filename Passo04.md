@@ -1,7 +1,4 @@
-## De 64512 a 65535 são reservados para AS`s privados
-
-
-
+** De 64512 a 65535 são reservados para ASs privados
 * Criar e ativar a instância iBGP apenas nos PES
 ** Número de AS
 ** Router-ID
