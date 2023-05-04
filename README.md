@@ -1,4 +1,4 @@
-# (ADINDA ESCREVENDO) OSPF + MPLS(LDP) + VRF usando Mikrotik
+# (AINDA ESCREVENDO) OSPF + MPLS(LDP) + VRF usando Mikrotik
 
 Passo a passo para a criação de um laborátorio OSPF, MPLS/LDP e VRF no eve-ng usando roteadores mikrotik. 
 
