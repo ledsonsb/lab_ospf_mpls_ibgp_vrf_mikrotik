@@ -1,4 +1,4 @@
-## 1 - Ativando MPLS no Mikrotik
+## 1 - Fechar sessão iBGP entre os PEs para passar as VRFs
 
 ![Laborátorio completo](https://github.com/ledsonsb/lab_ospf_mpls_ibgp_vrf_mikrotik/blob/main/_imagens/passo01.PNG)
 
