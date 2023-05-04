@@ -12,13 +12,16 @@
 * AS do peer remoto
 * Address family VPN (para passar as VRFs)
 
-
-## Criar e ativar a instância BGP com seu router ID
+Criar e ativar a instância BGP com seu router ID
+~~~cpp
 /routing bgp instance set default as=65501 router-id=172.16.0.4
+~~~
 
-## Fechar sessão com os peers
-## Permitir trasporte vpnv4 (vrf)
-
+Fechar sessão com os peers
+Permitir trasporte vpnv4 (vrf)
+~~~cpp
 /routing bgp peer
-add address-families=ip,vpnv4 name=PE3 remote-address=172.16.0.3 remote-as=\
-    65001 ttl=default update-source=looopback
+add address-families=ip,vpnv4 name=PE3 remote-address=172.16.0.3 remote-as=\65001 ttl=default update-source=looopback
+~~~
+
+
